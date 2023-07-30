@@ -1,0 +1,161 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s;
+}
+
+.icons {
+  font-size: 80px;
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+
+.ahrefs {
+  align-items: center;
+  background-color: red;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.reza {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Russo One", sans-serif;
+}
+
+.opera {
+  width: 100%;
+  display: flex;
+  padding: 25px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.088);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.opera > a {
+  background-color: red;
+  width: 80%;
+  justify-content: center;
+  display: flex;
+  padding: 12px 0px;
+  margin-top: 22px;
+  font-size: 20px;
+}
+.opera > a:hover {
+  background-color: #C61B1B;
+}
+.opera > div {
+  margin: 0px 45px;
+  width: 100%;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.099);
+}
+.opera > div > p {
+  font-size: 18px;
+}
+.opera > div > p > span {
+  font-size: 18px;
+  color: red;
+}
+
+.kochak {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.kochak > p {
+  color: black;
+}
+.kochak > a {
+  background-color: red;
+  padding: 12px 35px;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.kochak > a:hover {
+  background-color: #C61B1B;
+}
+.kochak > a > i {
+  padding: 20px;
+}
+
+.kochakk {
+  width: 45%;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+.kochakk * {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.kochakk > span {
+  font-size: 10px;
+}
+.kochakk > p {
+  padding: 40px 20px;
+  font-size: 15px;
+  color: #867B74;
+  text-align: center;
+}
+.kochakk > a {
+  margin-bottom: 20px;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  background-color: red;
+}
+.kochakk > a:hover {
+  background-color: #C61B1B;
+}
+.kochakk > figure {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.kochakk > figure > figcaption {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.kochakk > figure > img {
+  display: flex;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1029 @@
+main {
+  width: 100%;
+}
+main > header {
+  width: 100%;
+}
+main > header > section {
+  width: 100%;
+  height: 60px;
+  background-color: #262528;
+  justify-content: space-between;
+}
+main > header > section > div {
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+main > header > section > div > i {
+  margin: 0px 15px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+main > header > section > div > p {
+  color: white;
+  font-size: 12px;
+}
+main > header > section > div > p > a {
+  color: red;
+  font-size: 12px;
+}
+main > header .box {
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+}
+main > header .box > div {
+  position: relative;
+  width: 90%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+main > header .box > div > figure {
+  display: flex;
+  width: 25%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+main > header .box > div > figure > img {
+  width: 50%;
+  cursor: pointer;
+}
+main > header .box > div > nav {
+  display: flex;
+  width: 75%;
+  height: 100%;
+}
+main > header .box > div > nav > ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main > header .box > div > nav > ul > li {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 9.3%;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+main > header .box > div > nav > ul > li:nth-of-type(1) {
+  position: relative;
+}
+main > header .box > div > nav > ul > li:nth-of-type(1):hover .underline {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(1) > .underline {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  background-color: #262528;
+  border-top: 5px solid red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(1) > .underline * {
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(1) > .underline > li {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+main > header .box > div > nav > ul > li:nth-of-type(1) > .underline > li:last-of-type {
+  border: none;
+}
+main > header .box > div > nav > ul > li:nth-of-type(1) > .underline > li > a {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  text-transform: uppercase;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2):hover ul {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul {
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  left: 0;
+  top: 130%;
+  position: absolute;
+  width: 100%;
+  border-top: 6px solid red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li {
+  display: flex;
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul {
+  width: 100%;
+  display: flex;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div:nth-of-type(4) {
+  background-image: url(../img/livestream-block-background.jpg);
+  background-size: cover;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div:nth-of-type(3) {
+  background-image: url(../img/gallery-image-11.jpg);
+  background-size: cover;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div:nth-of-type(2) {
+  background-image: url(../img/ptb-background-retina.jpg);
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div:nth-of-type(2) > span {
+  color: red;
+  font-size: 35px;
+  justify-content: center;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div:nth-of-type(2) > span::before {
+  align-items: center;
+  display: flex;
+  content: "$";
+  justify-content: center;
+  color: red;
+  font-size: 20px;
+  margin-right: 5px;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div:nth-of-type(2) > span::after {
+  content: "m";
+  width: 20px;
+  color: red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div:nth-of-type(1) {
+  background-image: url(../img/teams-games-container-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div:nth-of-type(1) > a:nth-of-type(2) {
+  align-items: center;
+  background-color: red;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div * {
+  color: white;
+  display: flex;
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div p {
+  justify-content: center;
+  text-align: justify;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  font-size: 12px;
+}
+main > header .box > div > nav > ul > li:nth-of-type(2) > ul > li > ul > li > div > a {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
+main > header .box > div > nav > ul > li:nth-of-type(3) {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > header .box > div > nav > ul > li:nth-of-type(3):hover .underline {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(3) > .underline {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  background-color: #262528;
+  border-top: 5px solid red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(3) > .underline * {
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(3) > .underline > li {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+main > header .box > div > nav > ul > li:nth-of-type(3) > .underline > li:last-of-type {
+  border: none;
+}
+main > header .box > div > nav > ul > li:nth-of-type(3) > .underline > li > a {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  text-transform: uppercase;
+}
+main > header .box > div > nav > ul > li:nth-of-type(4) {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > header .box > div > nav > ul > li:nth-of-type(4):hover .underline {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(4) > .underline {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  background-color: #262528;
+  border-top: 5px solid red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(4) > .underline * {
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(4) > .underline > li {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+main > header .box > div > nav > ul > li:nth-of-type(4) > .underline > li:last-of-type {
+  border: none;
+}
+main > header .box > div > nav > ul > li:nth-of-type(4) > .underline > li > a {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  text-transform: uppercase;
+}
+main > header .box > div > nav > ul > li:nth-of-type(5) {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > header .box > div > nav > ul > li:nth-of-type(5):hover .underline {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(5) > .underline {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  background-color: #262528;
+  border-top: 5px solid red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(5) > .underline * {
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(5) > .underline > li {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+main > header .box > div > nav > ul > li:nth-of-type(5) > .underline > li:last-of-type {
+  border: none;
+}
+main > header .box > div > nav > ul > li:nth-of-type(5) > .underline > li > a {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  text-transform: uppercase;
+}
+main > header .box > div > nav > ul > li:nth-of-type(6) {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > header .box > div > nav > ul > li:nth-of-type(6):hover .underline {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(6) > .underline {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  background-color: #262528;
+  border-top: 5px solid red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(6) > .underline * {
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(6) > .underline > li {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+main > header .box > div > nav > ul > li:nth-of-type(6) > .underline > li:last-of-type {
+  border: none;
+}
+main > header .box > div > nav > ul > li:nth-of-type(6) > .underline > li > a {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  text-transform: uppercase;
+}
+main > header .box > div > nav > ul > li:nth-of-type(7) {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > header .box > div > nav > ul > li:nth-of-type(7):hover .underline {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(7) > .underline {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  background-color: #262528;
+  border-top: 5px solid red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(7) > .underline * {
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(7) > .underline > li {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+main > header .box > div > nav > ul > li:nth-of-type(7) > .underline > li:last-of-type {
+  border: none;
+}
+main > header .box > div > nav > ul > li:nth-of-type(7) > .underline > li > a {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  text-transform: uppercase;
+}
+main > header .box > div > nav > ul > li:nth-of-type(8) {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > header .box > div > nav > ul > li:nth-of-type(8):hover .underline {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(8) > .underline {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  background-color: #262528;
+  border-top: 5px solid red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(8) > .underline * {
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(8) > .underline > li {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+main > header .box > div > nav > ul > li:nth-of-type(8) > .underline > li:last-of-type {
+  border: none;
+}
+main > header .box > div > nav > ul > li:nth-of-type(8) > .underline > li > a {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  text-transform: uppercase;
+}
+main > header .box > div > nav > ul > li:nth-of-type(9) {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > header .box > div > nav > ul > li:nth-of-type(9):hover .underline {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(9) > .underline {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  background-color: #262528;
+  border-top: 5px solid red;
+}
+main > header .box > div > nav > ul > li:nth-of-type(9) > .underline * {
+  width: 100%;
+}
+main > header .box > div > nav > ul > li:nth-of-type(9) > .underline > li {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+main > header .box > div > nav > ul > li:nth-of-type(9) > .underline > li:last-of-type {
+  border: none;
+}
+main > header .box > div > nav > ul > li:nth-of-type(9) > .underline > li > a {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  text-transform: uppercase;
+}
+main > header .box > div > nav > ul > li > a {
+  font-size: 18px;
+  height: 50%;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+main > header .box > div > nav > ul > li > a:hover {
+  color: red;
+}
+main > header .box > div > nav > ul > li > a:hover::after {
+  width: 100%;
+  left: 0;
+}
+main > header .box > div > nav > ul > li > a::after {
+  position: absolute;
+  display: flex;
+  content: "";
+  width: 0%;
+  height: 5px;
+  background-color: red;
+  bottom: 0%;
+  left: 50%;
+}
+main > .bozorg {
+  height: 85vh;
+  width: 100%;
+  background-image: url(../img/organisation-slider-1-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main > .bozorg > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding-left: 90px;
+}
+main > .bozorg > div * {
+  width: 100%;
+  display: flex;
+  color: white;
+}
+main > .bozorg > div > span {
+  padding-top: 40px;
+  display: flex;
+  font-size: 90px;
+}
+main > .bozorg > div > h1 {
+  display: flex;
+  font-size: 60px;
+  width: 50%;
+}
+main > .bozorg > div > p {
+  display: flex;
+  font-size: 30px;
+  color: rgb(255, 62, 62);
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+main > .bozorg > div > a {
+  justify-content: center;
+  width: 12%;
+  display: flex;
+  background-color: rgb(253, 49, 49);
+  padding: 15px 25px;
+  border-radius: 30px;
+}
+main > .bozorg > div > a:hover {
+  opacity: 0.8;
+}
+main > .navar {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+}
+main > .navar > div {
+  width: 90%;
+  display: flex;
+  height: 100%;
+}
+main > .navar > div > div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+}
+main > .navar > div > div > figure {
+  display: flex;
+  width: 100%;
+  padding: 45px;
+}
+main > .navar > div > div > figure > img {
+  display: flex;
+  width: 100%;
+  color: aqua;
+  filter: grayscale(100%) opacity(50%);
+}
+main > .navar > div > div > figure > img:hover {
+  filter: none;
+}
+main .container {
+  width: 100%;
+}
+main .container > .content2 {
+  width: 40%;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: start;
+  align-content: flex-start;
+}
+main .container > .content2 > p {
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+main .container > .content2 > .opera {
+  width: 100%;
+  display: flex;
+  padding: 25px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.088);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .container > .content2 > .opera > a {
+  background-color: red;
+  width: 80%;
+  justify-content: center;
+  display: flex;
+  padding: 12px 0px;
+  margin-top: 22px;
+}
+main .container > .content2 > .opera > a:hover {
+  background-color: #C61B1B;
+}
+main .container > .content2 > .opera > div {
+  margin: 0px 45px;
+  width: 100%;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.099);
+}
+main .container > .content2 > .opera > div > p {
+  font-size: 18px;
+}
+main .container > .content2 > .opera > div > p > span {
+  font-size: 18px;
+  color: red;
+}
+main .container > .content2 > figure {
+  width: 80%;
+  height: 290px;
+  cursor: pointer;
+}
+main .container > .content2 > figure:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 2px 20px 5px black;
+}
+main .container > .content2 > figure > img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .container > .contents {
+  width: 60%;
+  padding: 25px 55px;
+  justify-content: center;
+}
+main .container > .contents > figure {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+main .container > .contents > figure:hover {
+  box-shadow: 2px 2px 20px 5px black;
+  transform: scale(1.02);
+}
+main .container > .contents > figure > img {
+  width: 100%;
+}
+main .container > .contents > .kochakk {
+  width: 45%;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+main .container > .contents > .kochakk * {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+main .container > .contents > .kochakk > span {
+  font-size: 10px;
+}
+main .container > .contents > .kochakk > p {
+  padding: 40px 20px;
+  font-size: 15px;
+  color: #867B74;
+  text-align: center;
+}
+main .container > .contents > .kochakk > a {
+  margin-bottom: 20px;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  background-color: red;
+}
+main .container > .contents > .kochakk > a:hover {
+  background-color: #C61B1B;
+}
+main .container > .contents > .kochakk > figure {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .container > .contents > .kochakk > figure > figcaption {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+main .container > .contents > .kochakk > figure > img {
+  display: flex;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .container > .contents > .kochak {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+main .container > .contents > .kochak > p {
+  color: black;
+}
+main .container > .contents > .kochak > a {
+  background-color: red;
+  padding: 12px 35px;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+main .container > .contents > .kochak > a:hover {
+  background-color: #C61B1B;
+}
+main .container > .contents > .kochak > a > i {
+  padding: 8px;
+}
+main > .slide {
+  margin-top: 100px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+main > .slide > div {
+  width: 20%;
+  display: flex;
+}
+main > .slide > div > figure {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+main > .slide > div > figure:hover > img {
+  transform: scale(1.1);
+}
+main > .slide > div > figure > img {
+  width: 100%;
+  height: 100%;
+}
+main > .slide > div > figure > img:nth-of-type(2) {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: auto;
+  top: 35%;
+}
+main > .containerbox {
+  width: 100%;
+}
+main > .containerbox > .containbox2 {
+  width: 62%;
+  align-content: start;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+main > .containerbox > .containbox2 > .kheili {
+  width: 100%;
+}
+main > .containerbox > .containbox1 {
+  width: 38%;
+  padding: 65px 90px;
+  align-content: start;
+}
+main > .containerbox > .containbox1 > figure {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  margin-top: 50px;
+  justify-content: center;
+}
+main > .containerbox > .containbox1 > figure:hover > img {
+  transform: scale(1.02);
+  box-shadow: 2px 2px 20px 5px black;
+}
+main > .containerbox > .containbox1 > figure img {
+  width: 87%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100px;
+}
+main > .containerbox > .containbox1 > p {
+  padding: 40px 0px;
+}
+main > .containerbox > .containbox1 > div {
+  display: flex;
+  width: 100%;
+  border: 1px solid rgba(255, 136, 136, 0.155);
+  flex-wrap: wrap;
+}
+main > .containerbox > .containbox1 > div > figure {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+main > .containerbox > .containbox1 > div > figure:nth-of-type(2) {
+  padding: 65px;
+}
+main > .containerbox > .containbox1 > div > figure > figcaption {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main > .containerbox > .containbox1 > div > figure > figcaption > span {
+  display: flex;
+  justify-content: start;
+  padding-top: 20px;
+  font-size: 13px;
+  color: red;
+}
+main > .containerbox > .containbox1 > div > figure > figcaption > a {
+  display: flex;
+  justify-content: start;
+  font-size: 15px;
+  color: black;
+}
+main > .containerbox > .containbox1 > div > figure > figcaption > a:hover {
+  color: red;
+}
+main > .containerbox > .containbox1 > div > figure > figcaption > a * {
+  width: 100%;
+}
+main > .containerbox > .containbox1 > div > figure * {
+  width: 100%;
+}
+main > .containerbox > .containbox1 > div > figure > img {
+  display: flex;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main > .containerbox > .containbox1 > .box5 * {
+  font-size: 15px;
+}
+main > .containerbox > .containbox1 > .box5 span:nth-of-type(1) {
+  color: rgb(74, 74, 174);
+}
+main > .containerbox > .containbox1 > .box5 i {
+  font-size: 20px;
+  padding-right: 20px;
+}
+main > .meshki {
+  width: 100%;
+  background-image: url(../img/livestream-block-background.jpg);
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  align-content: flex-start;
+}
+main > .meshki > .roww {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+main > .meshki > .roww > video {
+  width: 100%;
+}
+main > .meshki > .players {
+  width: 80%;
+}
+main > .meshki > .players > p {
+  color: white;
+}
+main > .meshki > .players > a {
+  background-color: #6A25F4;
+  font-size: 15px;
+}
+main > .inputha {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+main > .inputha > .row2 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #E85C58;
+  justify-content: center;
+  align-content: center;
+}
+main > .inputha > .row2 > * {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main > .inputha > .row2 > input {
+  width: 80%;
+  padding: 27px 20px;
+  height: 40px;
+  margin: 20px;
+  font-size: 16px;
+  outline: none;
+}
+main > .inputha > .row2 > h2 {
+  padding-bottom: 55px;
+  font-size: 38px;
+  color: white;
+}
+main > .inputha > .row2 > p {
+  font-size: 12px;
+  color: white;
+}
+main > .inputha > .row2 > span {
+  padding-bottom: 35px;
+  font-size: 12px;
+  color: #786E66;
+}
+main > .inputha > .row2 > a {
+  width: 30%;
+  color: white;
+  background-color: red;
+  padding: 10px 35px;
+}
+main > .inputha > .row2 > a:hover {
+  background-color: #C61B1B;
+}
+main > .inputha > .row1 {
+  display: flex;
+  background-color: #262528;
+  align-content: center;
+  position: relative;
+  padding-bottom: 70px;
+}
+main > .inputha > .row1 > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #232225;
+  align-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+main > .inputha > .row1 > div > p {
+  color: white;
+}
+main > .inputha > .row1 > div > div > a > i {
+  font-size: 20px;
+  padding: 0px 7px;
+  color: red;
+}
+main > .inputha > .row1 > div > div > a > i:hover {
+  color: white;
+}
+main > .inputha > .row1 > h2 {
+  padding-bottom: 40px;
+}
+main > .inputha > .row1 > p {
+  padding: 0px 60px;
+  font-size: 12px;
+}
+main > .navbar {
+  width: 100%;
+  background-image: url(../img/footer-background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 140vh;
+  padding: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+}
+main > .navbar > p {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #262528;
+  padding: 30px 40px;
+  font-size: 12px;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+main > .navbar > nav {
+  width: 80%;
+}
+main > .navbar > nav > ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+main > .navbar > nav > ul * {
+  width: 100%;
+  flex-wrap: wrap;
+}
+main > .navbar > nav > ul > li {
+  height: auto;
+  justify-content: center;
+  width: 30%;
+  display: flex;
+  padding: 15px 0px;
+  display: flex;
+  align-content: flex-start;
+}
+main > .navbar > nav > ul > li > ul {
+  padding: 14px 0px;
+  align-content: start;
+  display: flex;
+}
+main > .navbar > nav > ul > li > ul li a {
+  display: flex;
+  justify-content: center;
+  color: #867B74;
+  font-size: 13px;
+  padding: 7px 0px;
+}
+main > .navbar > div {
+  align-content: start;
+  width: 20%;
+  display: flex;
+}
+main > .navbar > div > figure {
+  display: flex;
+  width: 80%;
+  align-content: start;
+}
+main > .navbar > div > figure > img {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=master.css.map */
